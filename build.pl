@@ -52,7 +52,7 @@ my $next        = 0; # counter used to make back and next button
 my $navlinks    = "<a href = 'index.html'>Index</a>";
 
 my $find = "{{sitename}}";
-my $replace = '"$sitename <small>A DJ we can believe in</small>"';
+my $replace = '"$sitename <small>A DJ We Can Believe In</small>"';
 $default_template =~ s/$find/$replace/ee;
 
 opendir( CSSDIR, $css_dir_name ) || warn "Error in opening dir $posts_dir_name\n";
