@@ -10,7 +10,7 @@ use File::Basename;
 # Some metadata
 #
 
-my $sitename = "DJ SQUO";
+my $sitename = "SQUO";
 
 #
 # These are the base directories my engine uses
@@ -276,7 +276,7 @@ foreach my $currentpost (reverse(@POSTS)) {
 # print TAGHTMLFILE "</body>\n";
 # print TAGHTMLFILE "</html>\n";
 
-if ($post_count % 5 != 0) {
+if ($post_count % 5 != 0 || $post_count == 0) {
 
 	$previous = $index_count - 1;
 	$next = $index_count + 1;
