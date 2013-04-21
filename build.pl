@@ -87,7 +87,7 @@ foreach my $currentpage (@PAGES) {
 $find = "{{nav}}";
 # $replace = '"$navlinks"';
 
-my $imglink = '<a href="http://www.soundcloud.com/djsquo"><img src="djwecanbelievein.jpg"/></a>';
+my $imglink = '';
 
 $replace = '"$imglink"';
 $default_template =~ s/$find/$replace/ee;
