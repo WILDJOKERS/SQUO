@@ -371,61 +371,6 @@ margin: 0px auto 20px;
 height: 40px;
 display:block;
 } 
-footer ul {
-list-style-image: none;
-list-style-position: outside;
-list-style-type: none;
-margin-top: 0px;
-margin-bottom: 0px;
-margin-left: -15px;
-}
-
-footer li {
-display: list-item;
-float: left;
-left: auto;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: none;
-position: static;
-}
-
-footer a {
-display: block;
-float: none;
-font-size: 14px;
-height: 20px;
-left: auto;
-line-height: 20px;
-list-style-image: none;
-list-style-position: outside;
-list-style-type: none;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
-outline-color: 
-rgb(255, 255, 255);
-outline-style: none;
-outline-width: 0px;
-padding-bottom:15%;
-padding-left: 15px;
-padding-right: 15px;
-padding-top: 15%;
-position: static;
-text-align: -webkit-auto;
-text-decoration: none;
-text-shadow: rgba(0, 0, 0, 0) 0px 1px 0px;
--webkit-transition:color .2s ease-in-out;
--moz-transition: color .2s ease-in-out;
--ms-transition: color .2s ease-in-out;
--o-transition: color .2s ease-in-out;
-color: #e3e3e3;
-}
-
-footer a:hover {
-color:white;
-}
 
 /* social well */
 
@@ -468,6 +413,20 @@ color:#486782;
 
 article .ny a {
 color: #FFD700;
+}
+
+#squo {
+-webkit-transform:rotate(90deg);
+-moz-transform:rotate(90deg);
+-o-transform: rotate(90deg);
+color: white;
+display:block;
+margin-left: 20px;
+font-family: "Comic Sans MS";
+bottom:0;
+width:20px;
+height:20px;
+font-size: 100px;
 }
 
 .social-well a {
