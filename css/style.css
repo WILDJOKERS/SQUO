@@ -434,40 +434,40 @@ text-align: center;
 font-size: 64px;
 }
 
-.social-well a:hover {
-color: #5ba525;
+article .email a {
+color: #5ba525;    
 }
 
-.facebook a:hover {
+article .facebook a {
 color: #3b5998;
 }
 
-.twitter a:hover {
+article .twitter a {
 color: #00acee;
 }
 
-.soundcloud a:hover {
+article .soundcloud a {
 color:#ff7700;
 }
 
-.instagram a:hover {
+article .instagram a {
 color:#3f729b;
 }
 
-.youtube a:hover {
+article .youtube a {
 color:#c4302b;
 }
 
-.thecore a:hover {
+article .thecore a {
 color:#d21034;
 }
 
-.nj a:hover {
-    color:#486782;
+article .nj a {
+color:#486782;
 }
 
-.ny a:hover {
-    color: #FFD700;
+article .ny a {
+color: #FFD700;
 }
 
 .social-well a {
@@ -483,5 +483,5 @@ cursor: pointer;
 }
 
 .social-well a:hover {
-text-shadow: 0 2px 32px white;
+text-shadow: 0 2px 48px white;
 }
