@@ -1,0 +1,60 @@
+.iphone-container {
+position: relative;
+top: 10px;
+width: 375px;
+height: 806px;
+font-family: "Helvetica Neue", sans-serif;
+background-image: url("../img/iphone.png");
+}
+
+.iphone-content {
+position: absolute;
+top: 147px;
+left: 27px;
+width: 320px;
+height: 548px;
+overflow: hidden;
+background-image: url("../img/daft.JPG");
+background-position:center top;
+background-size:548px 548px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+@media (max-width: 480px) {
+  .iphone-content {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+  }
+ .iphone-container {
+width: 100%;
+height: 100%;
+font-family: "Helvetica Neue", sans-serif;
+background-image: none;
+}
+
+}
+
+@media (max-width: 768px)  {
+  .iphone-content {
+    width: 320px;
+    height: 548px;
+  }
+}
+
+@media (max-width: 992px)  {
+  .iphone-content {
+    width: 320px;
+    height: 548px;
+  }
+}
+
+@media (max-width: 1200px)  {
+  .iphone-content {
+    width: 320px;
+    height: 548px;
+  }
+}
