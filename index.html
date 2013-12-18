@@ -57,16 +57,17 @@ border-radius: 4px;
 user-select: none;
       }
 
-
     .btn-social-circle {
-        color:white;
+        color:rgba(255, 255, 255, 0.7);
         border-radius:100%;
-        border: 1px solid white;
+        border: 1px solid rgba(255, 255, 255, 0.7);
         font-size:32px;
-        width: 72px;         /* Whatever fixed width you want here */
+        width: 59px;         /* Whatever fixed width you want here */
         display: block;     /* Force the width to be respected. See also: inline-block */
         float: left;        /* So it won't be 1-per-line. Not needed for inline-block */
         text-align: center;
+        -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 -webkit-transition: all 0.3s ease-in;  /* Saf3.2+, Chrome */
                -moz-transition: all 0.05s ease-in;  /* FF4+ */
                -ms-transition: all 0.05s ease-in;  /* IE10? */
@@ -137,6 +138,10 @@ user-select: none;
                 filter:blur(1px);
 
         margin:-5px -5px -5px -5px;
+      }
+
+      .float-right {
+        float: right;
       }
 
       .inline-list {
@@ -248,7 +253,7 @@ user-select: none;
           <p>© Copyright SQUO.</p>
         </div>
         <div class="large-6 columns">
-          
+          <p class="float-right">Website by <a href="http://PLJNS.com">PLJNS</a>.</p>
         </div>
       </div>
     </div> 
