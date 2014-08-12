@@ -1,0 +1,16 @@
+<div class="container pt portfolio">
+<div class="row mt centered">
+{% for release in site.data.releases  %}
+    <div class="col-sm-4 portfolio-item">
+        <a href="{{ release.link }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+                <div class="caption-content">
+                    <i class="fa fa-arrow-circle-o-up fa-3x"></i>
+                </div>
+            </div>
+            <img class="img-responsive" src="assets/img/releases/{{ release.id }}.jpg" alt="" />
+        </a>
+    </div>
+{% endfor %}
+</div>
+</div><!-- /container -->

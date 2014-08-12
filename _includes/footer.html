@@ -1,0 +1,37 @@
+<!-- Footer -->
+<footer class="text-center" id="footer">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>About</h3>
+                    <p>SQUO is a DJ, producer, and co-founder of <a href="http://wearewildjokers.com">WILD JOKERS</a>.</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Social</h3>
+                    <ul class="list-inline">
+                        {% for network in site.data.social %}
+                            <li>
+                                <a href="{{ network.link }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.name }}"></i></a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Contact</h3>
+                    <a class="btn btn-block btn-success" href="mailto:djsquo@gmail.com">djsquo@gmail.com</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-below" id="below-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; 2014 {{ site.title }}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
