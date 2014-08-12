@@ -20,6 +20,12 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+img {
+  max-width: 95%;
+}
+
+
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
@@ -194,6 +200,8 @@ footer .footer-below {
 .btn-success {
 	background-color: #dddddd;
 	color: #232323;
+  border-color: #444444;
+  margin-bottom: 25px;
 }
 
 .btn-success:hover {
